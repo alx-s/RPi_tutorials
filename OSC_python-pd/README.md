@@ -18,7 +18,7 @@ http://en.wikipedia.org/wiki/Open_Sound_Control
 
 ## How to install everything
 
-The installation takes place from bigining to end in the terminal. Every command written below should be typed there.
+The installation takes place from begining to end in the terminal. Every command written below should be typed there.
 
 ### Python.
 
