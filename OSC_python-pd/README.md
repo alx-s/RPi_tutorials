@@ -34,6 +34,7 @@ git clone git://gitorious.org/pyosc/devel.git
 Installation is then quite simple :
 
 ```shell
+cd devel
 sudo ./setup.py install
 ```
 
@@ -54,7 +55,7 @@ After cloning the repository it simply goes this way :
 
 ```shell
 cd pd-iemnet
-sudo make
+make
 sudo make install
 ```
 
