@@ -1,0 +1,14 @@
+#N canvas 1002 603 450 300 10;
+#X obj 55 182 iemnet/udpsend;
+#X floatatom 55 204 5 0 0 0 - - -;
+#X msg 71 100 disconnect;
+#X floatatom 194 105 5 0 0 0 - - -;
+#X msg 194 124 send /test \$1;
+#X msg 55 70 connect 127.0.0.1 9000;
+#X obj 194 147 OSC/packOSC;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;

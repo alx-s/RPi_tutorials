@@ -76,13 +76,15 @@ That's all we need this far, time to move on to the actual fun!
 
 Both the python code and the pure data patch are quite simple. You will find them right in this directory.
 
+OSC_send_python.py and OSC_receive_pd.pd work together to transmit data from python to pd. Sending data from pd to python is illustrated when using OSC_send_pd.pd with OSC_receive_python.py.
+
 You can notice that my pd objects specify the library they are using (ie: OSC/...). With pd-extended this won't be needed. With pd vanilla and the startup path correctly set up it won't be needed either. 
 
 
 ## Conclusion
 
-We've been through everything we need to transmit data from python to pure data. Obviously it does work the other way around, from pd to python, but I didn't need it this far. I'll leave it to you to discover!
-
+We've been through everything we need to transmit data between python and pure data.
+Lots of other functions are available when using OSC but I didn't need them so far, I let them for you to discover!
 
 
 
