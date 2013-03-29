@@ -15,4 +15,5 @@ Every time you will find a README containing the actual tutorial and other files
 
 ## What's Up
 
-* 12-03-2013 - OSC_python-pd : first tutorial explaining who to send data from python to Pure Data using OSC
+* 12-03-2013 - OSC_python-pd : first tutorial explaining who to send data from python to Pure Data using OSC.
+* 29-03-2013 - Analog_inputs-MaxBotix : how to use the GPIO to read an analog signal coming from an ultrasonic sensor.
